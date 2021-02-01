@@ -1,0 +1,211 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+     font-family: 'Montserrat', sans-serif;
+
+}
+
+/*************************************************************************************************************/
+
+/*Header Section*/
+header
+{
+    background-size: cover;
+    background-image: url(images/bg.jpg);
+    color: white;  
+}
+
+.dark_layer /*black layer*/
+{
+    background-color: rgba(00, 00, 00, .6);
+     height: 100%;
+}
+
+nav
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 28;
+}
+
+.logo
+{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+ header h1
+ {
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ header span
+ {
+    font-size: 55px;
+ }
+
+/************************************************************************************************************/
+/*About Me Section*/
+
+.card-body p
+{
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.card-body h2
+{
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-size: 180%;
+}
+
+.btn-bg
+{
+    background-color:  rgba(00,00,00, .9);
+}
+
+.btn
+{
+    font-size: 95%;
+}
+
+.btn-color
+{
+    color: rgba(00,00,00, .9); 
+    border-color:  rgba(00,00,00, .9);
+   
+}
+
+
+.progress-bar
+{
+    background-color: rgba(00,00,00, .9);
+    
+}
+
+.progress
+{
+    margin: 40px 0px;
+    height: 22px;
+}
+
+/************************************************************************************************************/
+/*Services Section*/
+section h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+
+.st
+{
+    font-size: xx-large;
+    background-color: whitesmoke;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;  
+}
+
+/************************************************************************************************************/
+/*Testimonials Section*/
+.customer
+{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+
+i
+{
+    font-size: xx-large;
+}
+
+
+.carousel-indicators li
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: gray;
+    
+}
+
+.alex
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 0 5px;
+}
+
+.evanto
+{
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.Testimonials
+{
+    line-height: 1.6;
+    font-size: 15px;
+    color: #748182;
+}
+
+/************************************************************************************************/
+/*Contact Us Section*/
+
+
+textarea
+{
+    width: 100%;
+    border-color:rgb(218, 212, 212);
+    border-width: thin;
+}
+
+
+
+/************************************************************************************************/
+/*Our Blog Section*/
+.blog
+{
+   padding-bottom: 50px;
+   width: 90%;
+}
+
+.blog-text
+{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blog-title
+{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/************************************************************************************************/
+/*Footer Section*/
+footer
+{
+    background-color:#201f1f;
+    color:  #5b7a81;
+    font-weight:500;
+    font-size: small;
+}
+
